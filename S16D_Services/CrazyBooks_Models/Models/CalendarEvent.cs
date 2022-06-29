@@ -11,5 +11,6 @@ namespace CrazyBooks_Models.Models
         public int Id { get; set; }
         public DateTime Date { get; set; }
         public string EventName {get;set;}
+        public ICollection<Booking> Bookings { get; set; }
     }
 }
